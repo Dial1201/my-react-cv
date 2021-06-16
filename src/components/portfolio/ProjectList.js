@@ -5,26 +5,56 @@ import Project from './Project';
 
 class ProjectList extends Component {
     state = {
-        projects: portfolioData
+        projects: portfolioData,
+        radios: [
+            {id: 1, value: "php/symfony"},
+            {id: 2, value: "javascript/react"},
+            // {id: 3, value: "css"},
+            {id: 3, value: "wordpress"},
+        ],
+        selectedRadio: 'php/symfony'
     };
 
+    handleRadio = (event) =>{
+        let radio = event.target.value;
+        this.setState({selectedRadio: radio})
+    }
+
     render() {
-        let { projects } = this.state;
-        console.log(projects);
+        let { projects,radios,selectedRadio } = this.state;
+        // console.log(projects);
 
         return (
             <div className="portfolioContent">
                 <ul className="radioDisplay">
-
+                {
+                    radios.map((radio) => {
+                        return(
+                            <li key={radio.id}>
+                                <input type="radio" name="radio"
+                                checked={radio.value === selectedRadio}
+                                value={radio.value}
+                                id={radio.value}
+                                onChange={this.handleRadio} 
+                                />
+                                <label htmlFor={radio.value}>{radio.value}</label>
+                            </li>
+                        )
+                    })
+                }
                 </ul>
 
                 <div className="projects">
                     {
-                        projects.map(project => {
+                        projects
+                            .filter(item => item.languages.includes(selectedRadio))
+                            .map(project => {
                             return (
                                 <Project
                                     key={project.id}  
+                                    {...project}  
                                 />
+                                
                             )
                         })
                     }

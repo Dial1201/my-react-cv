@@ -6,13 +6,19 @@ const Experience = () => {
            <h3>Expérience</h3>
             <div className="exp-1">
                 <h4>Développeur web - Freelance</h4>
-                <h5>2019 - 2021</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas asperiores laborum accusamus totam eaque quod, tenetur rem dolor sunt, omnis ab, modi amet delectus aperiam!</p>
+                <h5>depuis nov 2019</h5>
+                <p>IU d'un site web - Développement de site web ecommerce - Référencement naturel SEO - 
+                Test Unitaire Fonctionel - Développement Backend</p>
             </div>
             <div className="exp-2">
-                <h4>Développeur web - Freelance</h4>
-                <h5>2019 - 2021</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas asperiores laborum accusamus totam eaque quod, tenetur rem dolor sunt, omnis ab, modi amet delectus aperiam!</p>
+                <h4>Sapeur Pompier</h4>
+                <h5>2014 - 2019</h5>
+                <p>Intervention lors de feux d'incendie d'habitation,accidents de la route, secours à la personne</p>
+            </div>
+            <div className="exp-3">
+                <h4>Footballeur Semi-Professionnel</h4>
+                <h5>2008 - 2012</h5>
+                <p>Footballeur - PSG - Sedan - Cagliari (Italie)</p>
             </div>
         </div>
     );

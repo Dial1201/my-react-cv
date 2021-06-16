@@ -62,4 +62,13 @@ export const portfolioData = [
     info: 'Création simpliste d\'une app qui donne l\'heure actuelle. https://hellocity-dial.herokuapp.com/',
     picture: './media/project1.JPG'
   },
+  {
+    id: 8,
+    name: 'sport-investment.com',
+    languages: ['wordpress'],
+    languagesIcons: ['fab fa-wordpress'],
+    source: 'https://www.sport-investment.com/',
+    info: 'Nous attachons une attention particulière à nos joueurs. Des conseils adaptés, un bon placement ainsi qu’une assistance optimale des stars de football sont primordiaux pour nous. ',
+    picture: './media/sport_website.png'
+  },
 ]

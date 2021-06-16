@@ -17,7 +17,7 @@ const Contact = () => {
                         </li>
                         <li>
                             <i className="fas fa-mobile-alt"></i>
-                            <span>06 03 59 86 00</span>
+                            <span>06 31 77 61 29</span>
                         </li>
                         <li>
                             <i className="far fa-envelope"></i>

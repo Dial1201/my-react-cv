@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fd8556a.chunk.css",
+    "main.js": "/static/js/main.e903eb84.chunk.js",
+    "main.js.map": "/static/js/main.e903eb84.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3ffc76e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3ffc76e0.js.map",
+    "static/js/2.1ebb8376.chunk.js": "/static/js/2.1ebb8376.chunk.js",
+    "static/js/2.1ebb8376.chunk.js.map": "/static/js/2.1ebb8376.chunk.js.map",
+    "static/js/3.e27b451f.chunk.js": "/static/js/3.e27b451f.chunk.js",
+    "static/js/3.e27b451f.chunk.js.map": "/static/js/3.e27b451f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1fd8556a.chunk.css.map": "/static/css/main.1fd8556a.chunk.css.map",
+    "static/js/2.1ebb8376.chunk.js.LICENSE.txt": "/static/js/2.1ebb8376.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/static/media/smile-issa.72ae2514.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ffc76e0.js",
+    "static/js/2.1ebb8376.chunk.js",
+    "static/css/main.1fd8556a.chunk.css",
+    "static/js/main.e903eb84.chunk.js"
+  ]
+}

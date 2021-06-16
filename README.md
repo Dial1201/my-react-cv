@@ -1,3 +1,10 @@
+# Issa diallo cv
+
+[![Deploy](https://github.com/Dial1201/my-react-cv/workflows/Deploy/badge.svg?branch=main)](https://github.com/Dial1201/my-react-cv/actions?query=workflow%3ADeploy)
+
+My CV React
+<https://dial1201.github.io/my-react-cv/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

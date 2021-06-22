@@ -8,11 +8,11 @@ class ProjectList extends Component {
         projects: portfolioData,
         radios: [
             {id: 1, value: "php/symfony"},
-            {id: 2, value: "javascript/react"},
+            // {id: 2, value: "javascript/react"},
             // {id: 3, value: "css"},
-            {id: 3, value: "wordpress"},
+            {id: 2, value: "wordpress"},
         ],
-        selectedRadio: 'php/symfony'
+        selectedRadio: 'wordpress'
     };
 
     handleRadio = (event) =>{

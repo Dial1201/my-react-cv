@@ -45,7 +45,7 @@ const Navigation = () => {
                     <li><a href="https://www.linkedin.com/in/issa-diallo/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i></a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/issa-diallo/" target="_blank" rel="noopener noreferrer">
+                    <li><a href="https://github.com/Dial1201" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i></a>
                     </li>
                 </ul>

@@ -7,7 +7,7 @@ const Hobbies = () => {
             <ul>
                 <li className="hobby"><i className="fas fa-futbol"></i>Football</li>
                 <li className="hobby"><i className="fab fa-bitcoin"></i>Crypto-monnaies</li>
-                <li className="hobby"><i className="fab fa-book"></i>Lecture</li>
+                <li className="hobby"><i className="fas fa-book"></i>Lecture</li>
             </ul>
         </div>
     );

@@ -16,7 +16,7 @@ const Experience = () => {
                 <p>Intervention lors de feux d'incendie d'habitation,accidents de la route, secours à la personne</p>
             </div>
             <div className="exp-3">
-                <h4>Footballeur Semi-Professionnel</h4>
+                <h4>Footballeur Semi-Professionnel Junior</h4>
                 <h5>2008 - 2012</h5>
                 <p>Footballeur - PSG - Sedan - Cagliari (Italie)</p>
             </div>
